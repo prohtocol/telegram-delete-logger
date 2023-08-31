@@ -50,7 +50,7 @@ TYPE_GROUP = 3
 TYPE_BOT = 4
 TYPE_UNKNOWN = 0
 
-client = TelegramClient('db/user', config.API_ID, config.API_HASH)
+client = TelegramClient('myuser', config.API_ID, config.API_HASH)
 my_id = -1
 sqlite_cursor: sqlite3.Cursor = None
 sqlite_connection: sqlite3.Connection = None
